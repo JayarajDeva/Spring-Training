@@ -1,0 +1,43 @@
+package com.demo.spring;
+
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.demo.jpa.Config;
+import com.demo.jpa.Emp;
+import com.demo.repo.MyRepository;
+
+
+
+@RestController
+public class MyRestService {
+	
+	@RequestMapping(path="/greet/{name}",method= RequestMethod.GET)
+	public String greet(@PathVariable("name") String name){
+		return "Hello" +name;
+	}
+	
+	
+	
+	@RequestMapping(path="/emp",method= RequestMethod.GET,produces={MediaType.APPLICATION_JSON_VALUE,MediaType.APPLICATION_XML_VALUE})
+	public List<Emp> getEmp(){
+		 ApplicationContext ctx = new AnnotationConfigApplicationContext(Config.class);
+	       MyRepository myRepository=(MyRepository)ctx.getBean("myRepository");
+	       Iterable <Emp> empList = myRepository.getAllEmp500();
+	       Iterator<Emp> emp = empList.iterator();
+	       while (emp.hasNext()) {
+			Emp e = emp.next();
+			System.out.println(e.getName()+e.getSalary());
+		}
+	}
+
+}

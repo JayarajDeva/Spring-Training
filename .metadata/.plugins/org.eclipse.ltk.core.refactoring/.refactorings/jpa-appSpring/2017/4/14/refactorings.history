@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JPAMain.java&apos; to &apos;jpa-appSpring/src/main/java/com.demo.jpa&apos;&#x0D;&#x0A;- Original project: &apos;jpa-appSpring&apos;&#x0D;&#x0A;- Destination element: &apos;jpa-appSpring/src/main/java/com.demo.jpa&apos;&#x0D;&#x0A;- Original element: &apos;com.demo.jpa.JPAMain.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.demo.jpa" element1="/src\/main\/java&lt;com.demo.jpa{JPAMain.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1491298813401" units="1" version="1.0"/>
+</session>

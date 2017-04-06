@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="jpa-appSpring"/>
+<aop-project name="boot-App1"/>
+<aop-project name="app-java-Config"/>
+<aop-project name="app-Spring-Tx"/>
+<aop-project name="restful"/>
+<aop-project name="Data-JpaSpring"/>
+<aop-project name="Spring-MVC-JC"/>
+<aop-project name="Spring-Rest"/>
+<aop-project name="app1"/>
+<aop-project name="aop-java-Config"/>
+<aop-project name="app-JDBC"/>
+<aop-project name="ProxyTest"/>
+<aop-project name="Spring-MVC"/>
+<aop-project name="app2"/>
+</aop-reference-model>

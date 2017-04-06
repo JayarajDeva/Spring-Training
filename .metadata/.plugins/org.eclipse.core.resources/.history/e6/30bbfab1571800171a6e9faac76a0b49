@@ -1,0 +1,14 @@
+package com.demo.spring;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class PlainTextWriter implements Writer {
+
+	@Override
+	public String write(String s) {
+		// TODO Auto-generated method stub
+		return "Plain text1 Writer:"+s;
+	}
+
+}

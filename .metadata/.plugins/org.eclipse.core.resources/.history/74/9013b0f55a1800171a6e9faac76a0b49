@@ -1,0 +1,26 @@
+package com.demo.spring;
+
+import java.util.logging.Logger;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class MyLogger {
+	
+	Logger logger = Logger.getLogger("demo");
+	
+	@Before("")
+	public void logBefore(){
+		logger.info("Before doconcat method Call...");
+	}
+	
+   @Afterreturning("")	
+   public void logAfter(){
+	   logger.info("After doconcat method Call...");
+	}
+	
+	
+
+}

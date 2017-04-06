@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1491386023072_3" label="JAVA" name="JAVA">
+<item elementID="=boot-App1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1491386077190_5" label="BOOT" name="BOOT"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1491197641948_0" label="Window Working Set" name="Aggregate for window 1491197641948"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1491210775718_1" label="Window Working Set" name="Aggregate for window 1491210775718"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1491370854346_2" label="Window Working Set" name="Aggregate for window 1491370854346"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1491386085359_6" label="Multiple Working Sets" name="Aggregate:BOOT:JAVA:">
+<workingSet IMemento.internal.id="BOOT"/>
+<workingSet IMemento.internal.id="JAVA"/>
+</workingSet>
+<mruList name="JAVA"/>
+</workingSetManager>

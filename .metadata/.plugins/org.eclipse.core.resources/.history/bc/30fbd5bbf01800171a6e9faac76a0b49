@@ -1,0 +1,45 @@
+package com.demo.spring;
+
+import java.util.logging.Logger;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Component;
+
+/**
+ * @author 14
+ *
+ */
+@Component
+@Aspect
+public class MyLoggerAround {
+	
+	Logger logger = Logger.getLogger("demo");
+	
+	@Before("execution(* com.demo.spring.Concat.*(..))")
+	public void logBefore(){
+		logger.info("Before doconcat method Call...");
+	}
+	
+	@Around("execution(* com.demo.spring.Concat.doConcat(..))")	
+   public Object logAfter(ProceedingJoinPoint jointpoint){
+	   try {
+		logger.info("After doconcat method Call..."); 
+		jointpoint.proceed();
+		System.out.println("Around after is running!");
+
+		System.out.println("******");
+
+	} catch (Throwable e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	}
+	
+	
+
+}

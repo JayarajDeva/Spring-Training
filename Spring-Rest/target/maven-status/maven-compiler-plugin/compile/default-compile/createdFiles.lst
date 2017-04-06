@@ -1,0 +1,14 @@
+com\demo\jpa\App.class
+com\demo\jpa\Emp.class
+com\demo\spring\Dept.class
+com\demo\jpa\Dept.class
+com\demo\repo\MyRepository.class
+com\demo\jpa\SpringJPAMain.class
+com\demo\jpa\JPAQL1.class
+com\demo\spring\Emp.class
+com\demo\spring\WebAppInitializer.class
+com\demo\jpa\Config.class
+client\GetClient1.class
+com\demo\jpa\JPAMain.class
+com\demo\spring\WebConfig.class
+com\demo\spring\MyRestService.class

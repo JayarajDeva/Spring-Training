@@ -1,0 +1,16 @@
+server:
+  port: 8081  
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.1.232:8761/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5  
+
+spring:
+  application:
+    name: client-service
+    

@@ -1,0 +1,9 @@
+package com.demo.spring;
+
+public class DemoController {
+ 
+	public String getPage(){
+		return "/WEB-INF/pages/Welcome.jsp";
+	}
+	
+}
