@@ -1,10 +1,10 @@
 server:
-  port: 8085
+  port: 9091
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.1.232:8761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
     healthcheck:
       enabled: true
     lease:
@@ -16,5 +16,5 @@ spring:
 
 logging:
   level:
-    org.exampledriven.eureka.customer.shared.CustomerServiceFeignClient: info
-    org.exampledriven.eureka: INFO
+    org.exampledriven.eureka.customer.shared.CustomerServiceFeignClient: FULL
+    org.exampledriven.eureka: DEBUG

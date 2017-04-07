@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Apr 04 12:32:21 IST 2017
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1491289341290
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.jboss\:jboss-parent\:pom\:9 from/to central (https\://repo.maven.apache.org/maven2)\: D\:\\repo\\.m2\\repository\\org\\jboss\\jboss-parent\\9\\aether-97bfb49d-bceb-4773-a3f7-9788d4099834-jboss-parent-9.pom-in-progress (The system cannot find the file specified)

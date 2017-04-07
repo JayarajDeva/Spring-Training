@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Resource1 {
 	@RequestMapping(value = "/message", method = RequestMethod.GET)
 	public String getMessage() {
-		return "Eureka 8083, found it!";
+		return "Eureka, found it!";
 	}
 
 }

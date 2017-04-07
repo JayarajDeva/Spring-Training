@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: client-service
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: 14
+Built-By: shantanu
 Implementation-Vendor-Id: com.demo.spring
-Build-Jdk: 1.8.0_121
+Build-Jdk: 1.8.0_91
 Implementation-URL: http://projects.spring.io/spring-boot/client-servi
  ce/
 Created-By: Maven Integration for Eclipse

@@ -1,10 +1,10 @@
 server:
-  port: 8081
+  port: 9099
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.1.232:8761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
     healthcheck:
       enabled: true
     lease:
